@@ -1,0 +1,29 @@
+
+/* bodyの中で中央寄せとフォント設定 */
+body {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+
+/* h1のフォントサイズをルート要素の2倍に設定 */
+.first-heading {
+  letter-spacing: 1.2em;
+  font-size: 2rem; /* ルート要素の2倍 */
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* 子孫セレクタで特定のp要素を太字に */
+#parent > p {
+  font-weight: bold;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+.sky {
+  color: skyblue;
+}
